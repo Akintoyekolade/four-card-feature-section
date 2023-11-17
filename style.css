@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins-light';
+    src: url('fonts/Poppins-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins-bold';
+    src: url('fonts/Poppins-Bold.ttf') format('truetype');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {    
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Greyish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Grey: hsl(0, 0%, 98%);
+}
+
+body {
+    font-family: 'Poppins',sans-serif;
+    background-color: var(--Very-Light-Grey);
+    margin: 72px 32px;
+}
+
+
+.text-large-200 {
+    font-family: 'poppins-light';
+    font-size: 25px;
+    font-weight: 200;
+    color: var(--Very-Dark-Blue);
+    text-align: center;
+}
+
+.text-large-400 {
+    font-family: 'poppins-bold';
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--Very-Dark-Blue);   
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.hero-text {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    color: var(--Greyish-Blue);
+    margin-bottom: 76px;
+}
+
+/* Main Header desktop */
+
+@media screen and (min-width: 830px) {
+    
+    .cards-wrapper {
+        display: flex;
+        align-items: center;
+        column-gap: 30px;        
+    }
+
+    .card-2 {
+        margin-bottom: 30px;
+    }
+}
+
+.card-container {
+    background-color: white;
+    padding: 24px;
+    border-radius: 8px;    
+    display: grid;   
+    max-width: 350px; 
+    box-shadow: 0px 4px 24px hsla(212, 86%, 64%, 0.2) ;
+}
+
+.card-heading h2 {
+    font-size: 21px;
+    letter-spacing: -0.4px;
+    color: var(--Very-Dark-Blue);
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.card-heading p{
+    font-size: 14px;
+    color: var(--Greyish-Blue);
+}
+
+.card-heading-figure {
+    display: grid;
+    justify-items: flex-end;
+    justify-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+ion-icon {
+    color: hsl(234, 12%, 34%);
+  }
+
+ .nav{
+    display: inline-flex;
+    list-style-type: none;
+  }

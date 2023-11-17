@@ -3,43 +3,135 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   <title>Frontend Mentor | Four card feature section</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
+  <main>
+    <div class="main-intro-container">
+      <h1 class="text-large-200">Reliable, efficient delivery</h1>
+      <h1 class="text-large-400">Powered by Technology</h1>
+      <p class="hero-text text-center">Our Artificial Intelligence powered tools use millions of project data points 
+          to ensure that your project is successful</p>
+    </div>
+
+    <div class="cards-wrapper">
+        <div class="card-container card-1">
+          <div class="card-heading-figure">
+            <div class="card-heading">
+              <h2>Supervisor</h2>
+              <p>Monitors activity to identify project roadblocks</p>  
+            </div>
+
+            <figure>
+              <img src="images/icon-supervisor.svg" alt="supervisor icon">
+            </figure>          
+          </div>
+        </div>
+
+        <div class="stacked-cards-large"> <!--Stacked card open-->
+
+          <div class="card-container card-2"> <!--Card 2-->
+            <div class="card-heading-figure">
+              <div class="card-heading">
+                <h2>Team Builder</h2>
+                <p>Scans our talent network to create the optimal team for your project</p>  
+              </div>
+    
+              <figure>
+                <img src="images/icon-team-builder.svg" alt="team builder icon" title="team builder icon">
+              </figure>              
+            </div>
+          </div> <!--Card 2 END-->
+
+          <div class="card-container card-3">
+            <div class="card-heading-figure">
+              <div class="card-heading">
+                <h2>Karma</h2>
+                <p>Regularly evaluates our talent to ensure quality</p>  
+              </div>
+    
+              <figure>
+                <img src="images/icon-karma.svg" alt="karma icon" title="karma icon">
+              </figure>              
+            </div>
+          </div> <!--Card 3 END-->
+
+        </div>  <!--Stacked cards END-->   
+            
+      <div class="card-container card-3">
+        <div class="card-heading-figure">
+          <div class="card-heading">
+            <h2>Calculator</h2>
+            <p>Uses data from past projects to provide better delivery estimates</p>  
+          </div>
+
+          <figure>
+            <img src="images/icon-calculator.svg" alt="Calculator icon" title="Calculator icon">
+          </figure>  
+        </div>      
+      </div>
+
+    </div>
   
-  Reliable, efficient delivery
-  Powered by Technology
-
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
 
   
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+
+  
+
+
+  
+  
+  
+
+  
+
+  
+  
+
+
+
+  </main>
+
+  <footer class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a></p>
+    <span class="div-line">|</span> 
+    <p>Coded by <a href="https://www.frontendmentor.io/profile/Akintoyekolade">Akintoye Kolade Israel</a>.</p>
   </footer>
+
+  <nav>
+    <ul class="nav navbar-nav social-links pull-right hidden-xs">
+      
+      <li>
+        <a href="https://koladeakintoye.vzy.io" title="My portfolio" target="_blank">
+          <iconify-icon icon="mdi:web"></iconify-icon></a></li>
+
+      <li>
+        <a href="https://twitter.com/akintoyekolade" title="Follow me on twitter" target="_blank">
+          <iconify-icon icon="formkit:twitter"></iconify-icon></a></li>
+      
+      <li>
+        <a href="https://www.linkedin.com/in/akintoyekolade/" title="Let's connect" target="_blank">
+          <iconify-icon icon="entypo-social:linkedin-with-circle"></iconify-icon></a></li>
+      
+      <li>
+        <a href="https://www.behance.net/akintoyekolade" title="Behance" target="_blank">
+          <iconify-icon icon="ant-design:behance-circle-filled"></iconify-icon></a></li>    
+      
+      <li>
+        <a href="https://github.com/Akintoyekolade/" title="Behance" target="_blank">
+          <iconify-icon icon="fa-brands:github"></iconify-icon></a></li>   
+
+      <li>
+        <a href="https://instagram.com/official_kaystringz" title="Follow on instagram" target="_blank">
+          <iconify-icon icon="uil:instagram"></iconify-icon></a></li>
+    </ul>
+  </nav>
+
 </body>
 </html>
