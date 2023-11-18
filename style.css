@@ -33,7 +33,7 @@
 body {
     font-family: 'Poppins',sans-serif;
     background-color: var(--Very-Light-Grey);
-    margin: 72px 32px;
+    margin: 80px 32px;
     display: grid;
     justify-items: center;
 }
